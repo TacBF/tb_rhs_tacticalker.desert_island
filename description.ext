@@ -1,0 +1,13 @@
+#define TB_loadingScreen_imagePath "tb_loadingScreen.jpg"
+
+onLoadName="[A&S] Tacticalker";
+overviewPicture = "tb_loadingScreen.jpg";
+author="Galactic";
+onLoadMission="Tactical Battlefield: Advance and Secure. Mercenaries vs Stalkers: light, medium, attack vehicles";
+
+#include "tb_description.sqh"
+#include "tb_settings.hpp"
+#include "tb_objectReplacements.hpp"
+#include "tb_magazineLimitations.hpp"
+#include "tb_supply.hpp"
+#include "tb_vehicleMags.hpp"

@@ -1,0 +1,60 @@
+// RUS - Army (EMR-Summer)
+// Author: Cole
+
+uniforms[] =
+{
+// UNIFORMS
+	
+	// Infantry
+	{"U_O_CombatUniform_oucamo", {__ICE_gear_allRoles}},
+	{"rhs_uniform_gorka_r_g", {__ICE_gear_Diver}},
+		
+	// Sniper
+	{"U_O_FullGhillie_ard", {__ICE_gear_Sniper}},
+	{"U_O_FullGhillie_lsh", {__ICE_gear_Sniper}},
+	{"U_O_FullGhillie_sard", {__ICE_gear_Sniper}},
+		
+	// Pilot
+	{"rhs_uniform_df15", {__ICE_gear_Pilot}},
+
+// VESTS
+	
+	// Infantry
+	{"rhsgref_6b23_khaki_rifleman", {__ICE_gear_allRoles, __ICE_gear_Rifleman, __ICE_gear_infantryRoles}},
+	//{"rhs_6b23_digi_6sh92", {__ICE_gear_infantryRoles}},
+	//{"rhs_6b23_digi_rifleman", {__ICE_gear_Rifleman}},
+	{"rhs_6b23_6sh92_radio", {__ICE_gear_Rifleman, __ICE_gear_SL}},
+	//{"rhs_6b23_digi_medic", {__ICE_gear_Medic}},
+	{"rhsgref_6b23_khaki_medic", {__ICE_gear_Medic}},
+	//{"rhs_6b23_digi_6sh92_vog_headset", {__ICE_gear_Grenadier}},
+	{"rhs_6b23_6sh92_vog_headset", {__ICE_gear_Grenadier}},
+	//{"rhs_6b23_digi_engineer", {__ICE_gear_CombatEngineer}},
+	{"rhsgref_6b23_khaki", {__ICE_gear_CombatEngineer}},
+	{"rhs_6b23_digi_6sh92_radio", {__ICE_gear_SL}},
+	{"rhsgref_6b23_khaki_sniper", {__ICE_gear_Sniper}},
+	{"rhs_6b23_digi_crewofficer", {__ICE_gear_Crewman}},
+		
+	// Pilot
+	{"rhs_vydra_3m", {__ICE_gear_Pilot}},
+
+// HELMETS
+	
+	// Infantry
+	{"rhs_6b7_1m_olive", {__ICE_gear_Inf}},
+	{"rhs_fieldcap_digi", {__ICE_gear_Inf}},
+	{"rhs_Booniehat_digi", {__ICE_gear_Marksman, __ICE_gear_Sniper}},
+	{"rhs_zsh12_black", {__ICE_gear_MG, __ICE_gear_Grenadier}},
+	{"H_Watchcap_khk", {__ICE_gear_SL, __ICE_gear_Diver}},
+	{"H_HelmetO_oucamo", {__ICE_gear_Diver}},
+	
+		
+	// Crewman
+	{"rhs_tsh4", {__ICE_gear_Crewman}},
+		
+	// Pilot
+	{"rhs_zsh7a_mike", {__ICE_gear_Pilot}},
+	
+// GLASSES
+	
+	{"G_Bandanna_blk", {__ICE_gear_allRoles}}
+};
